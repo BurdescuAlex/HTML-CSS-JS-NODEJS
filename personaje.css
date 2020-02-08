@@ -1,0 +1,61 @@
+body
+{
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.personaje
+{
+ 
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid coral;
+    border-radius: 45px;
+
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.personaje h1
+{
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 40px;
+}
+.personaje h2
+{
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+}
+.personaje p
+{
+    font-size: 30px;
+    margin: 10px;
+    padding-bottom: 30%;
+}
+.personaje img
+{
+    width: 30%;
+    height: 65%;
+    margin: 10px;
+}
+.personaje img:hover
+{ 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes example
+{
+    from{
+        width: 30%;
+        height: 65%;
+    }
+    to{
+        width: 20%;
+        height: 50%;
+    }
+}

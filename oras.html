@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <script src="oras.js"> </script>
+  <link  id="navbar" rel="stylesheet" href="stil.css">
+  <link  id="pagestyle" rel="stylesheet" href="oras.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <script> window.onload=Load();</script>
+  <title> SpongeBob </title>
+</head>
+
+<body>  
+    <div class="nav">
+        <img src="logo.png"  alt="LOGO" /> 
+        <img src="SpongeBob.png"  alt="Spongebob" /> 
+
+
+        <a href="oras.html">Oras</a>
+        <a href="personaje.html">Personaje</a>
+      
+        <div class="dropdown">
+            <button class="dropbutton">Restaurante</button>
+            <div class="dropdown-content" >
+                <a href="weeniehut.html">Weenie Hut</a>
+                <a href="chumbucket.html">Chum Bucket</a>
+                <a href="krustycrab.html">Krusty Krab</a>
+            </div>
+        </div>
+        <a href="Home.html">Home</a>
+    </div>
+
+
+        <div class="commentarea">
+            <p>Name:</p>
+            <input id='name' type='text' placeholder="Name" autofocus  autocomplete="off"/>
+        </br>
+            <p>Comment:</p>
+            <textarea id='comment' type='text' placeholder="Leave us a review!"></textarea>
+            <button onclick="sendInformation()">Post!</button>
+            <p id='responseArea'>Waiting comment...</p>
+            <div id="myBar">
+            </div>
+        </div>
+        <div id="viewcomments">
+            <h1 style="font-family: cursive; text-align: center;"><b>User Comments</b></h1>
+
+        </div>
+        <script> getinformation()</script>
+</body>
+</html>

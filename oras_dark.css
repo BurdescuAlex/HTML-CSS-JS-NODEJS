@@ -1,0 +1,116 @@
+body
+{
+   background-image: url(darktown.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+.commentarea
+{
+    margin-top: 15%;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 35%;
+    height: 50vw;
+    border: solid rgba(255, 255, 255, 0.74);
+    border-radius: 15px;
+}
+.commentarea p
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 150%;
+}
+.commentarea button
+{
+    border: double rgba(255, 255, 255, 0.685);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    font-size: 250%;
+    color: rgb(158, 158, 158);
+    padding: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+.commentarea button:hover
+{
+    color: rgb(255, 255, 255);
+}
+#name
+{
+    border: solid rgb(194, 182, 178);
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+
+    padding: 5px;
+    margin-left: 1%;
+    width: 12vw;
+    margin-bottom: 5px;
+}
+#comment
+{
+    border: solid rgb(236, 236, 236);
+    border-radius: 15px;
+    outline: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: black;
+    color: white;
+
+    padding: 5px;
+    margin-left: 1%;
+    width: 12vw;
+    height: 15vw;
+    resize: none;
+
+}
+#responseArea
+{
+    border: solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+    width: 35%;
+}
+
+#myBar 
+{
+    width: 0%;
+    height: 30px;
+    background-color: rgb(22, 65, 22);
+}
+#viewcomments
+{
+    margin-top: -60%;
+    float: right;
+    margin-right: 0px;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 35%;
+    height: 70vw;
+    border: solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+#viewcomments p
+{
+    margin-left: 5px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.034); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(212, 212, 212, 0.363);
+}

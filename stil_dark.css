@@ -1,0 +1,86 @@
+.nav
+{
+    position: fixed;                               
+    background: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 100%;
+}
+.nav button, a
+{
+    float: right;
+    color:rgb(163, 163, 163);
+    padding: 14px;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    background-color: transparent;
+    border: none;
+    cursor:pointer; 
+    outline:none;
+}
+.nav button:hover, a:hover
+{
+    color: rgb(255, 255, 255);
+}
+.nav img
+{
+    width: 4%;
+    height: 100%;
+}
+
+.dropdown
+ {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown-content {
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    top: 100%;
+    position: absolute;
+    width: 17vw;
+  }
+  .dropdown-content a 
+  {
+      font-size:  2vw; 
+      float: left;
+      text-align: center;
+      padding: 3%;
+  }
+  .dropdown:hover .dropdown-content
+   {
+    display: block;
+   }
+
+   .dropdown-content a:nth-child(2)
+   {
+       color: rgb(170, 170, 170);
+   }
+   .dropdown-content a:nth-child(2):hover
+   {
+       color: rgb(255, 255, 255);
+   }
+
+   @media screen and (max-width: 1050px) 
+   {
+    .nav button, a
+    {
+        font-size: 4vw;     
+    }
+    .dropdown-content a
+    {
+        font-size: 4vw;
+    }
+    .dropdown-content
+    {
+        width: 25vw;
+    }
+ }

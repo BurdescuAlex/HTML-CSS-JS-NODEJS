@@ -1,0 +1,61 @@
+body
+{
+    background-image: url("dark_krusty.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.Meniu
+{
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.418);
+    border: solid rgb(192, 192, 192);
+    border-radius: 45px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: azure;
+}
+.Meniu h1
+{
+    font-family: cursive;
+}
+.Meniu p, ul
+{
+    font-size: 150%;
+}
+.Meniu table
+{
+    width: 100%; 
+    font-size: 150%; 
+    text-align: left; 
+    padding: 5%;
+}
+.Meniu ul , h2
+{
+    text-align:left;
+    padding-left: 5% ;
+    list-style-type: none;
+
+}
+@media screen and (max-width: 1050px) 
+{
+    .Meniu p ,ul ,h2
+    {
+        font-size: 250%;
+    }
+    .Meniu td
+    {
+        font-size: 150%;
+    }
+    .Meniu
+{
+    text-align: center;
+    margin-top: 12%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: solid rgb(187, 187, 187);
+    border-radius: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}

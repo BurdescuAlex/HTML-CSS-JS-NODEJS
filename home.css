@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro
+{
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 45px;
+    border-style: double;
+    border-color: black;
+
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#myfooter
+{
+    font-size: 2vw;
+    position: fixed;
+    color: black;
+    background-color: rgba(22, 156, 218, 0.4);
+    border: dotted dodgerblue;
+    border-radius: 45px;
+    bottom: 0px;
+}
+.buttondark
+{
+    background-color: rgba(153, 153, 153, 0.616);
+    border: solid coral;
+    border-radius: 25px;
+    font-size: 130%;
+    outline: none;
+    cursor: pointer;
+}
+@keyframes bulesus
+{
+    from{
+        margin-top: 150%;
+    }
+    to{
+        margin-top: -70%;
+    }
+}

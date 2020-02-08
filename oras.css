@@ -1,0 +1,100 @@
+body
+{
+   background-image: url(case.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+.commentarea
+{
+    margin-top: 15%;
+    background-color: rgba(221, 228, 240, 0.568);
+    width: 35%;
+    height: 50vw;
+    border: solid coral;
+    border-radius: 15px;
+}
+.commentarea p
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 150%;
+}
+.commentarea button
+{
+    border: double rgb(247, 121, 75);
+    background-color: rgba(255, 255, 255, 0.336);
+    outline: none;
+    border-radius: 5px;
+    font-size: 250%;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+.commentarea button:hover
+{
+    color:coral;
+}
+#name
+{
+    border: solid coral;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+
+    padding: 5px;
+    margin-left: 1%;
+    width: 12vw;
+    margin-bottom: 5px;
+}
+#comment
+{
+    border: solid coral;
+    border-radius: 15px;
+    outline: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 100%;
+
+    padding: 5px;
+    margin-left: 1%;
+    width: 12vw;
+    height: 15vw;
+    resize: none;
+
+}
+#responseArea
+{
+    border: solid coral;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+    width: 35%;
+}
+
+#myBar 
+{
+    width: 0%;
+    height: 30px;
+    background-color: green;
+}
+#viewcomments
+{
+    margin-top: -60%;
+    float: right;
+    margin-right: 0px;
+    background-color: rgba(221, 228, 240, 0.568);
+    width: 35%;
+    height: 70vw;
+    border: solid coral;
+    border-radius: 15px;
+}
+#viewcomments p
+{
+    margin-left: 5px;
+}
